@@ -1,0 +1,86 @@
+$backgroundcolor: black;
+
+p {
+  @if $backgroundcolor == black{
+    color: white;
+  }
+  @else {
+    color: black;
+  }
+}
+
+.encabezado {
+  background-color: green;
+  .encabezado__lista{
+    list-style: none;
+    .encabezado__lista--desplegable{
+      display: block;
+      color: white;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+      }
+    }
+  .encabezado__logo{
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    margin-left: 15px;
+
+  }
+}
+
+.articulos{
+  background-color: grey;
+  .articulos__texto{
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .articulos__titulos{
+    color: white;
+    font-size: 42px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(43, 77, 43);
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.pie{
+  background-color: green;
+  .pie__texto{
+    color: white;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pie__texto--mayusculas{
+    text-transform: uppercase;
+  }
+  .pie__redes{
+    background-color: rgb(240,245,241);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
+.imagenes{
+  .imagenes__responsive{
+    width: 100%;
+    height: auto;
+  }
+  .imagenes__responsive--maximo400{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }
+  .imagenes__responsive--maximo1080{
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+  }
+}

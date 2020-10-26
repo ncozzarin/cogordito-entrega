@@ -1,0 +1,49 @@
+p {
+  color: black; }
+
+h1 {
+  font-size: calc(25 + (45 - 25) * ((100vh - 360px) / (1600 - 360))) !important; }
+
+.headerRectangle {
+  text-align: center;
+  margin-top: 1vh; }
+
+.titles {
+  padding: 2vh;
+  font-family: 'Nunito', sans-serif; }
+
+.blogBox {
+  background: #D3D3D3;
+  display: block;
+  width: 75%;
+  height: 30vh;
+  margin: auto;
+  padding: 1vh; }
+  .blogBox img {
+    float: left;
+    padding-left: 2vh;
+    padding-top: 0vh;
+    max-height: 25vh;
+    margin-top: 0vh;
+    max-width: 30%; }
+  .blogBox p {
+    text-align: center;
+    padding-top: 2vh;
+    padding-right: 5vh; }
+
+
+
+.blogBox .titleBlogEntry {
+  text-align: center;
+  font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(43, 77, 43);
+
+}
+
+.small {
+  width: 50%; }
+
+.ultimaEntradaBlog {
+  padding: 2vh;
+  margin-bottom: 2vh; }

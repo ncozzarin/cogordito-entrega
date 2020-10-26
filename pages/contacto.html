@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilosnew.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(43, 77, 43);" >
+      <a class="navbar-brand" href="../index.html">
+    <img src="../img/logo.png" width="70" height="40" class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../pages/contacto.html">Contacto<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/marketplace.html">Tienda</a>
+          </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>Blog</b>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(43, 77, 43);">
+              <a class="dropdown-item" href="../pages/blog.html">Cultivo</a>
+              <a class="dropdown-item" href="../pages/budin-banana.html">Recetas</a>
+              <a class="dropdown-item" href="../pages/blog.html">Salud</a>
+              <div class="dropdown-divider" style="border-color:black;"></div>
+              <a class="dropdown-item" href="../pages/blog.html">Todas las entradas</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar en cogordito" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">IR</button>
+        </form>
+      </div>
+    </nav>
+    <!--Section: Contact v.2-->
+<div class="container">
+
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos!</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Si tenes alguna pregunta, no dudes en contactarnos!</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Tu nombre</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Tu e-mail</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Asunto</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Tu consulta</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-success" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Buenos Aires, Argentina</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 54 11 5618 3394</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@cogordito.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+</section>
+</div>
+  <hr class="mx-0 px-0">
+  <!-- footer -->
+  <footer>
+
+    <div class="text-center center-block paddingbottom">
+        <p class="txt-railway">- Nuestras redes -</p>
+          <a href="https://www.facebook.com/cogordito"><i id="social-fb" class="fa fa-facebook-square fa-3x social distance"></i></a>
+          <a href="https://twitter.com/cogordito"><i id="social-tw" class="fa fa-twitter-square fa-3x social distance"></i></a>
+          <a href="https://plus.google.com/+cogordito-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social distance"></i></a>
+          <a href="mailto:cogorditro@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social distance"></i></a>
+          <a href="https://youtube.com/cogordito"><i id="social-gp" class="fa fa-youtube-square fa-3x social distance"></i></a>
+
+    </div>
+  </footer>
+  <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
